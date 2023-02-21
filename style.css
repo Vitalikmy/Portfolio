@@ -69,6 +69,10 @@ nav {
   margin-left: auto;
   flex-shrink: 0;
 }
+img.clicked {
+  border: 5px solid red;
+}
+
 
 .about-me-container {
   display: flex;
@@ -148,4 +152,19 @@ footer{
   .about-me-container {
     flex-direction: column;
   }
+}
+@keyframes heartBeat {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+#contact .fab.fa-github  {
+  animation: heartBeat 2s infinite;
+}
+.fab.fa-linkedin {
+  animation: heartBeat 2s infinite;
+}
+.fas.fa-envelope-square{
+  animation: heartBeat 2s infinite;
 }
