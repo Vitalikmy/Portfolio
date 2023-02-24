@@ -6,6 +6,7 @@ html {
 
 html,
 body {
+  font-family: 'Roboto', sans-serif;
   height: 100%;
   color: var(--font-color);
 }
@@ -172,12 +173,17 @@ footer{
   100% { transform: scale(1); }
 }
 
-#skills .fab.fab.fa-linkedin {
+#social 
+  .fab.fa-linkedin {
   animation: heartBeat 2s infinite;
 }
-.fab.fa-linkedin {
+.fab.fa-github.icon {
   animation: heartBeat 2s infinite;
 }
 .fas.fa-envelope-square{
   animation: heartBeat 2s infinite;
 }
+
+
+
+
